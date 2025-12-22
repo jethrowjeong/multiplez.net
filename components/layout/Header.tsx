@@ -72,33 +72,40 @@ export function Header() {
                         title="Menu"
                         hiddenFrom="sm"
                         zIndex={300}
+                        styles={{
+                            header: { backgroundColor: '#020402', color: 'white' },
+                            content: { backgroundColor: '#020402' },
+                            close: { color: 'white' }
+                        }}
                     >
-                        <Stack gap="lg">
-                            <Text component="a" href="#solution" size="lg" fw={500} onClick={toggle}>
+                        <Stack gap="md" mt="xl">
+                            <Text component="a" href="#solution" size="xl" fw={600} py="sm" c="white" onClick={toggle} style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
                                 솔루션
                             </Text>
-                            <Text component="a" href="#why-us" size="lg" fw={500} onClick={toggle}>
+                            <Text component="a" href="#why-us" size="xl" fw={600} py="sm" c="white" onClick={toggle} style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
                                 차별점
                             </Text>
-
-                            <Text component="a" href="#pricing" size="lg" fw={500} onClick={toggle}>
+                            <Text component="a" href="#pricing" size="xl" fw={600} py="sm" c="white" onClick={toggle} style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
                                 가격
                             </Text>
-                            <Button
-                                component="a"
-                                href="https://calendar.app.google/i8KX8FBx8tonpQmb7"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                fullWidth
-                                variant="filled"
-                                color="brand.5"
-                                c="navy.9"
-                                radius="xl"
-                                fw={700}
-                                onClick={toggle}
-                            >
-                                무료 상담 신청
-                            </Button>
+                            <Box mt="xl">
+                                <Button
+                                    component="a"
+                                    href="https://calendar.app.google/i8KX8FBx8tonpQmb7"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    fullWidth
+                                    size="lg"
+                                    variant="filled"
+                                    color="brand.5"
+                                    c="navy.9"
+                                    radius="xl"
+                                    fw={700}
+                                    onClick={toggle}
+                                >
+                                    무료 상담 신청
+                                </Button>
+                            </Box>
                         </Stack>
                     </Drawer>
                 </Group>

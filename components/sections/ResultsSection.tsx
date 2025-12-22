@@ -20,7 +20,7 @@ export function ResultsSection() {
         },
         {
             icon: IconChartBar,
-            number: '11',
+            number: '13',
             subtitle: '현재 운영 글로벌 채널',
             desc: '미국, 일본, 러시아 실전 경험'
         },

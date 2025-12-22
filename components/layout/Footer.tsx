@@ -6,12 +6,12 @@ export function Footer() {
     return (
         <Box component="footer" py="xl" bg="dark.9" style={{ borderTop: '1px solid #333' }}>
             <Container size="xl">
-                <Group justify="space-between">
+                <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                     <Text fw={700} size="lg" c="dimmed">Multiplez</Text>
-                    <Group>
+                    <div className="flex gap-2">
                         <Text size="sm" c="dimmed">© 2025 Multiplez. All rights reserved.</Text>
-                    </Group>
-                </Group>
+                    </div>
+                </div>
             </Container>
         </Box>
     );

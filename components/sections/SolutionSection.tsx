@@ -23,6 +23,7 @@ export function SolutionSection() {
                                 c="white"
                                 style={{ fontFamily: 'Pretendard, sans-serif', fontSize: 'clamp(2rem, 5vw, 3rem)', lineHeight: 1.1 }}
                             >
+                                만들어 드립니다.<br />
                                 대형 유통사를 설득할<br />
                                 <span className="text-neon">강력한 증거 데이터</span>
                             </Title>

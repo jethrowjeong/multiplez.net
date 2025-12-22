@@ -10,7 +10,7 @@ export function RoadmapSection() {
     const [activeTab, setActiveTab] = useState<string | null>('phase1');
 
     return (
-        <Box component="section" py={{ base: 80, md: 120 }}>
+        <Box component="section" py={{ base: 50, md: 120 }}>
             <Container size="md">
                 <Title order={2} c="white" ta="center" mb="xl">
                     {activeTab === 'phase1' ? (
@@ -25,7 +25,7 @@ export function RoadmapSection() {
                 </Title>
 
                 <Tabs variant="pills" radius="xl" value={activeTab} onChange={setActiveTab} keepMounted={false}>
-                    <Tabs.List justify="center" mb={40}>
+                    <Tabs.List justify="center" mb={{ base: 20, md: 40 }} style={{ flexWrap: 'nowrap', overflowX: 'auto' }}>
                         <Tabs.Tab
                             value="phase1"
                             style={{
@@ -33,7 +33,8 @@ export function RoadmapSection() {
                                 padding: '12px 24px',
                                 '--tabs-radius': '10px',
                                 fontWeight: 700,
-                                color: activeTab === 'phase1' ? 'black' : undefined
+                                color: activeTab === 'phase1' ? 'black' : undefined,
+                                whiteSpace: 'nowrap'
                             }}
                             color="brand.5" // Yellow active state
                         >
@@ -44,7 +45,8 @@ export function RoadmapSection() {
                             style={{
                                 fontSize: '1.1rem',
                                 padding: '12px 24px',
-                                fontWeight: 700
+                                fontWeight: 700,
+                                whiteSpace: 'nowrap'
                             }}
                             color="gray"
                         >
@@ -56,7 +58,7 @@ export function RoadmapSection() {
                         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
                             <Paper
                                 className="glass-card"
-                                p={{ base: 30, md: 50 }}
+                                p={{ base: 24, md: 50 }}
                                 radius="lg"
                                 style={{ borderTop: '4px solid #ffd028' }}
                             >
@@ -103,7 +105,7 @@ export function RoadmapSection() {
                         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
                             <Paper
                                 className="glass-card"
-                                p={{ base: 30, md: 50 }}
+                                p={{ base: 24, md: 50 }}
                                 radius="lg"
                                 style={{ borderTop: '4px solid #ffffff' }}
                             >

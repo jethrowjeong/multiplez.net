@@ -7,20 +7,20 @@ import Image from 'next/image';
 
 export function WhyMultiplezSection() {
     return (
-        <Box component="section" id="why-us" py={{ base: 80, md: 120 }}>
+        <Box component="section" id="why-us" py={{ base: 50, md: 120 }}>
             <Container size="lg">
                 <Title
                     order={2}
                     ta="center"
                     mb={30}
                     c="white"
-                    style={{ fontFamily: 'Pretendard, sans-serif', fontSize: 'clamp(2rem, 4vw, 2.5rem)' }}
+                    style={{ fontFamily: 'Pretendard, sans-serif', fontSize: 'clamp(1.75rem, 4vw, 2.5rem)' }}
                 >
                     Why <span style={{ color: '#ffd028' }}>Multiplez?</span>
                 </Title>
 
-                <Box mb={80} ta="center">
-                    <Text size="xl" fw={700} c="white" mb={10}>
+                <Box mb={{ base: 40, md: 80 }} ta="center">
+                    <Text size="xl" fw={700} c="white" mb={10} style={{ fontSize: 'clamp(1.1rem, 2vw, 1.25rem)' }}>
                         단순 입점 대행이 아닙니다. &apos;매출&apos;을 만드는 &apos;운영&apos; 파트너입니다.
                     </Text>
                     <Text size="lg" c="dimmed">

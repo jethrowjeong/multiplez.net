@@ -5,7 +5,7 @@ import { IconPlus } from '@tabler/icons-react';
 
 export function FaqSection() {
     return (
-        <Box component="section" id="faq" py={{ base: 80, md: 120 }}>
+        <Box component="section" id="faq" py={{ base: 50, md: 120 }}>
             <Container size="md">
                 <Title
                     order={2}

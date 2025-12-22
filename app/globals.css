@@ -1,8 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --foreground-rgb: 255, 255, 255;
@@ -17,6 +15,8 @@ body {
     radial-gradient(circle at 100% 50%, rgba(10, 18, 10, 1) 0%, transparent 50%);
   background-attachment: fixed;
   color: #fff;
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
 }
 
 .glass-card {
@@ -37,6 +37,7 @@ body {
 
 .text-gradient {
   background: linear-gradient(to right, #ffffff, #e6e8e6);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

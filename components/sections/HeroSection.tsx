@@ -26,7 +26,7 @@ export function HeroSection() {
             <div style={{ position: 'absolute', top: '10%', right: '10%', width: 500, height: 500, background: '#ffd028', borderRadius: '50%', filter: 'blur(150px)', opacity: 0.1, zIndex: 0 }}></div>
 
             <Container size="xl" style={{ position: 'relative', zIndex: 1, width: '100%' }}>
-                <Grid gutter={50} align="center">
+                <Grid gutter={{ base: 30, md: 50 }} align="center">
                     {/* Left: Content */}
                     <Grid.Col span={{ base: 12, md: 6 }}>
                         <motion.div
@@ -62,7 +62,7 @@ export function HeroSection() {
 
                             <Text c="dimmed" size="xl" maw={600} mb="xl" style={{ lineHeight: 1.6 }}>
                                 대표님은 제품에만 집중하세요.<br />
-                                <strong>선적부터 계정 이슈 해결까지</strong> 저희가 직접 해결합니다.
+                                <strong>입점부터 선적, 계정 이슈 해결까지</strong> 저희가 직접 해결합니다.
                             </Text>
 
                             <Group gap="md">
