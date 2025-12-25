@@ -55,8 +55,11 @@ export function CtaSection() {
                                 }
                             }}
                         >
-                            무료 3개월 전략 상담 예약
+                            불안을 확신으로 바꾸는 방법 알아보기
                         </Button>
+                        <Text size="sm" c="dimmed" mt={-10} mb="sm">
+                            상담은 무료입니다. 약속은 진심입니다.
+                        </Text>
 
                         <Button
                             component="a"

@@ -7,26 +7,26 @@ import { motion } from 'framer-motion';
 export function ExportProcessSection() {
     const steps = [
         {
-            step: 'Step 1',
-            title: '준비 (Prep)',
+            step: 'STEP 1 (Prep)',
+            title: '시장을 읽고',
             items: ['제품 인증 확인', '가상계좌 개설', '서류 준비'],
             icon: IconClipboardCheck
         },
         {
-            step: 'Step 2',
-            title: '입점 (Setup)',
+            step: 'STEP 2 (Setup)',
+            title: '무기를 만들고',
             items: ['셀러 계정 생성', '계정 정지 방지', '카테고리 승인'],
             icon: IconUserPlus
         },
         {
-            step: 'Step 3',
-            title: '물류 (Logistics)',
+            step: 'STEP 3 (Logistics)',
+            title: '증거를 모아',
             items: ['FOB/ExWorks 설정', '수출 통관 처리', '해외 배송'],
             icon: IconTruckDelivery
         },
         {
-            step: 'Step 4',
-            title: '운영 (Operation)',
+            step: 'STEP 4 (Operation)',
+            title: '당신의 손에 쥐어드립니다',
             items: ['아마존 광고(PPC)', 'CS 대응/환불', '정산 관리'],
             icon: IconHeadset
         }

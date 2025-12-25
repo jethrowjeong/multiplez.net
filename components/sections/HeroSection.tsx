@@ -56,8 +56,9 @@ export function HeroSection() {
                                     fontFamily: 'Pretendard, sans-serif'
                                 }}
                             >
-                                <span style={{ color: '#d4af37' }}>수출 전 과정 판매 운영 대행,</span><br />
-                                저희가 전담합니다
+                                <span style={{ color: '#d4af37' }}>미국 시장, 정말 먹힐까?</span><br />
+                                그 답을 60일 만에<br />
+                                알 수 있습니다.
                             </Title>
 
                             <Text c="dimmed" size="xl" maw={600} mb="xl" style={{ lineHeight: 1.6 }}>
@@ -84,7 +85,7 @@ export function HeroSection() {
                                     className="button-glow"
                                     style={{ whiteSpace: 'normal' }}
                                 >
-                                    무료 3개월 전략 상담 예약
+                                    불안을 확신으로 바꾸는 방법 알아보기
                                 </Button>
                                 <Button
                                     component="a"
@@ -103,6 +104,9 @@ export function HeroSection() {
                                     서비스 소개 영상
                                 </Button>
                             </Group>
+                            <Text size="sm" c="dimmed" mt="xs" mb="lg">
+                                상담은 무료입니다. 약속은 진심입니다.
+                            </Text>
 
                             <Group mt="xl" align="center" gap="xs">
                                 <Box

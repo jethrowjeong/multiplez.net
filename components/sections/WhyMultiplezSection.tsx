@@ -16,15 +16,15 @@ export function WhyMultiplezSection() {
                     c="white"
                     style={{ fontFamily: 'Pretendard, sans-serif', fontSize: 'clamp(1.75rem, 4vw, 2.5rem)' }}
                 >
-                    Why <span style={{ color: '#ffd028' }}>Multiplez?</span>
+                    당신의 불안은 <span style={{ color: '#ffd028' }}>정상입니다</span>
                 </Title>
 
                 <Box mb={{ base: 40, md: 80 }} ta="center">
                     <Text size="xl" fw={700} c="white" mb={10} style={{ fontSize: 'clamp(1.1rem, 2vw, 1.25rem)' }}>
-                        단순 입점 대행이 아닙니다. &apos;매출&apos;을 만드는 &apos;운영&apos; 파트너입니다.
+                        대표님의 제품은 좋습니다.
                     </Text>
                     <Text size="lg" c="dimmed">
-                        Multiplez는 &apos;예쁜 상세페이지&apos;를 넘어 물류 최적화와 계정 성장 및 방어에 집중합니다.
+                        그 불안을 확신으로 바꾸는 것. 그게 저희가 하는 일입니다.
                     </Text>
                 </Box>
 

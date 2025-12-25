@@ -14,7 +14,7 @@ export function ResultsSection() {
         },
         {
             icon: IconCoin,
-            number: '60%+',
+            number: '80%+',
             subtitle: '파트너 재계약률',
             desc: '단발성이 아닌 지속적 확장'
         },
